@@ -4,7 +4,7 @@ import './style.css'
 
 const UiCard = ({className, style, children}) => {
     return (
-        <div className={`relative`}>
+        <div className={`relative group`}>
             <div className="pointer_tracker"></div>
             <div className="pointer_tracker"></div>
             <div className="pointer_tracker"></div>
@@ -39,7 +39,7 @@ export const UiCards = () => {
                     <span>The original shots</span>
                     <span>from all 34 creators.</span>
                 </div>
-                <div className="w-[35px] transition-all hover:rotate-180 h-[35px] bg-white rounded-full mt-auto self-end m-1 flex items-center justify-center">
+                <div className="w-[35px] transition-all group-hover:rotate-90 h-[35px] bg-white rounded-full mt-auto self-end m-1 flex items-center justify-center">
                     <svg className='w-3 h-3' viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 1V15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M1 8H15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
