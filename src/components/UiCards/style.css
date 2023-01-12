@@ -1,0 +1,94 @@
+.card_parent{
+    perspective: 1000px;
+    transition: all 1s ease-out;
+    transform-style: preserve-3d;
+}
+
+.card_meta{
+    perspective: 500px;
+    transform: translateZ(40px);
+    transform-style: preserve-3d;
+}
+
+.pointer_tracker{
+    position: absolute;
+    width: 33.33%;
+    height: 33.33%;
+    z-index: 20;
+}
+
+.pointer_tracker:nth-child(1){
+    left: 0;
+    top: 0;
+}
+.pointer_tracker:nth-child(2){
+    left: 33.33%;
+    top: 0;
+}
+.pointer_tracker:nth-child(3){
+    right: 0;
+    top: 0;
+}
+
+.pointer_tracker:nth-child(4){
+    left: 0;
+    top: 33.33%;
+}
+.pointer_tracker:nth-child(5){
+    left: 33.33%;
+    top: 33.33%;
+}
+.pointer_tracker:nth-child(6){
+    right: 0;
+    top: 33.33%;
+}
+
+.pointer_tracker:nth-child(7){
+    left: 0;
+    bottom: 0;
+}
+.pointer_tracker:nth-child(8){
+    left: 33.33%;
+    bottom: 0;
+}
+.pointer_tracker:nth-child(9){
+    right: 0;
+    bottom: 0;
+}
+
+.pointer_tracker:nth-child(1):hover~.card_parent {
+    transform: rotateX(-10deg) rotateY(10deg);
+}
+
+.pointer_tracker:nth-child(2):hover~.card_parent {
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+.pointer_tracker:nth-child(3):hover~.card_parent {
+    transform: rotateX(-10deg) rotateY(-10deg);
+}
+
+.pointer_tracker:nth-child(4):hover~.card_parent {
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+.pointer_tracker:nth-child(5):hover~.card_parent {
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+.pointer_tracker:nth-child(6):hover~.card_parent {
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+.pointer_tracker:nth-child(7):hover~.card_parent {
+    transform: rotateX(10deg) rotateY(10deg);
+}
+
+.pointer_tracker:nth-child(8):hover~.card_parent {
+    transform: rotateX(0deg) rotateY(0deg);
+}
+
+.pointer_tracker:nth-child(9):hover~.card_parent {
+    transform: rotateX(10deg) rotateY(-10deg);
+}
+
