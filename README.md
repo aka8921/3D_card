@@ -2,11 +2,11 @@
 
 UI clone of an interesting UI element by [@_animify](https://twitter.com/_animify/status/1610736547871031296)
 <br/> <br/>
-<img width="973" alt="Screenshot 2023-01-13 at 4 46 42 AM" src="https://user-images.githubusercontent.com/37739153/212202291-2ffd4393-b557-4bc2-ae1e-102ed9124fd9.png">
-<br/> <br/>
 ![ezgif-1-28b1e39b9f](https://user-images.githubusercontent.com/37739153/212202985-d9c855dc-ddba-4692-af07-492de23e0f5b.gif)
 
-<br />
+<br/> <br/>
+<img width="973" alt="Screenshot 2023-01-13 at 4 46 42 AM" src="https://user-images.githubusercontent.com/37739153/212202291-2ffd4393-b557-4bc2-ae1e-102ed9124fd9.png">
+<br/>
 
 # Why ?
 
